@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /*background-color: #f0f0f0;*/
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style for the "Home" button */
+a:first-child {
+  font-size: 1.5rem;
+  color: white; /* Text color for "Home" */
+ /* background-color: #DFCEB7; /* Background color for "Home" */
+  border-radius: 5px; /* Adding rounded corners for a button-like appearance */
+  padding: 15px 25px; /* Increase padding to make the button wider */
+}
+
+/* Style for the "Log In" button */
+a:last-child {
+  color: white; /* Text color for "Log In" */
+ /* background-color: #DFCEB7; /* Background color for "Log In" */
+  border-radius: 5px; /* Adding rounded corners for a button-like appearance */
+  padding: 15px 25px; /* Increase padding to make the button wider */
+}

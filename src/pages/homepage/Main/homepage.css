@@ -1,0 +1,117 @@
+#root, html, body  /*boiler plate react styles */ {
+  margin: 0; /*kunai default margin padding raicha bhaneni 0 huncha */
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+/*
+.Center{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  padding: 200px;
+}
+
+#nxtbtn{
+    position: relative; 
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 40px;
+    width: 120px;
+    opacity: 1;
+    background-color: rgba(250, 204, 170, 0.5); /* RGB values for #faccaa with 50% opacity ;
+    border: 1px solid rgba(22, 76, 167, 0.6); 
+}
+
+#nxtbtn span {
+    color: /* #FFFFF0; / #1a1a1a;
+    background-color: rgba(250, 204, 170, 0.5);
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 0.7px;
+  }
+    
+  #nxtbtn:hover {
+    animation: rotate 0.7s ease-in-out both;
+  }
+    
+  #nxtbtn:hover span {
+    animation: storm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+  }
+  
+  #nxtbtn:hover {
+    background-color: #d4ad96;
+  }
+
+
+
+    
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+  
+@keyframes storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}  
+
+
+@media only screen and (max-width: 600px) {
+  .Center {
+      width: 80%;
+      height: 30%;
+  }
+}
+*/
+
+.todoform {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.font {
+  font-family: "Playfair", serif;
+  font-weight: 600;
+}
+
+h1 {
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+}
